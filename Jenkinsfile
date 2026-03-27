@@ -1,11 +1,6 @@
 pipeline{
     agent any
     stages{
-        stage('Clone repo'){
-            steps{
-                git branch: 'main', url: 'https://github.com/msoni00309/DevOps-Project-Two-Tier-Flask-App.git'
-            }
-        }
         stage('Build image'){
             steps{
                 sh 'docker build -t flask-app .'
