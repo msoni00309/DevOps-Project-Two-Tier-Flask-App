@@ -90,7 +90,7 @@ This document outlines the step-by-step process for deploying a 2-tier web appli
 1.  **Update System Packages:**
     ```bash
     sudo apt update && sudo apt upgrade -y
-    udo init 6
+    sudo init 6
     ```
 
 2.  **Install Git, Docker, and Docker Compose:**
